@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    margin: 0 15px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+.container {
+    padding: 2rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.progress {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Form */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #007bff;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Work Experience */
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.timeline-item h3 {
+    margin-top: 0;
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(50%);
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-picture:hover {
+    transform: rotate(10deg) scale(1.1);
+    filter: grayscale(0%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
